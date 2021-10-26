@@ -22,7 +22,7 @@ Majority of the customers had a housing loan.
  
 6. XGBoost(over sampling)
 # Model Performance:
-Model	             Test AUC	              Test Accuracy	             F1_score	Precision
+# Model	             Test AUC	              Test Accuracy	             F1_score	                 Precision
 Logistic regression	0.70	0.61	                0.29	                       0.19
 Logistic Regression (Under sampling)	0.89	0.85	0.83	0.94
 Random Forest (Under sampling)	0.95	0.89	0.88	0.92
