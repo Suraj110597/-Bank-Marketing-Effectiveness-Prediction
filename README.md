@@ -1,4 +1,7 @@
 # Bank-Marketing-Effectiveness-Prediction
+
+![image](https://user-images.githubusercontent.com/66847170/138935289-b6f08565-97a7-4c11-b285-3531f4c952ba.png)
+
 # Problem Statement
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. The classification goal is to predict if the client will subscribe a term deposit (variable y). The dataset consists of direct marketing campaigns data of a banking institution which consisted of 45211 data points with 17 independent variables out of which 7 were numeric features and 10 were categorical features.
 
@@ -21,15 +24,8 @@ Majority of the customers had a housing loan.
 5. K-NN(over sampling)
  
 6. XGBoost(over sampling)
-# Model Performance:
-# Model                                   # Test AUC	                               # Test Accuracy	                       # F1_score	                           # Precision
-Logistic regression     	                 0.70	                                     0.61                               	     0.29                                0.19
-Logistic Regression (Under sampling)	     0.89	                                     0.85	                                  	 0.83                                0.94
-Random Forest (Under sampling)	           0.95                                      0.89                                    	0.88                   	            0.92
-Random Forest (Over sampling)	            0.93                                      0.88                                     0.81           	                    0.82
-XGBoost (Over sampling)                   0.91	                                     0.86   	                                 0.77                                0.82
-# Conclusions:-
-1. Random Forest and XGBoost have shown the best performance.
+# Conclusion:-
+1. Random Forest and XGBoost have shown the best performance with a Test AUC-ROC of 0.93 and 0.91.
 
 2. The customer's account balance has a huge influence on the campaign's outcome. So we can address those customers having good account balance .
 
